@@ -1,0 +1,54 @@
+/*****************初始样式**********************/
+.root{ /*根节点，树的第一层*/
+	border:1px solid #333;
+	width: 650px;
+	height: 150px;
+	margin:50px auto 10px auto;
+	
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.left,.right{   /*根的孩子节点，树的第二层*/
+	border:1px solid #000;
+	width: 300px;
+	height: 120px;
+	
+	display:flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+/*****左右孩子的孩子节点，树的第三层******/
+.left_left,.left_right,.right_left,.right_right{
+	width: 130px;
+	height: 90px;
+	border:1px solid #333;
+
+	display:flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+/*************叶子节点，树的第四层，即最后一层***************/
+.ll_l,.ll_r,.lr_l,.lr_r,.rl_l,.rl_r,.rr_l,.rr_r{
+	width:50px; 
+	height:50px;
+	border:1px solid #333;
+}
+.wrapper{
+	height: 50px;
+	width: 650px;
+	margin:auto;
+	display: -webkit-flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.interval{
+	line-height: 50px;
+}
