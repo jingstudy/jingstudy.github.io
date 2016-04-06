@@ -1,0 +1,46 @@
+
+/*********************主容器**********************/
+.main{
+	width: 90%;
+	height: auto;
+	margin:20px auto;
+	background-color: #eee;
+	border: 1px solid #999;
+	min-height: 470px;
+}
+/**********************左侧*********************/
+.left{
+	width: 160px;
+	padding: 20px;
+	float: left;
+	margin:20px 0 0 20px;
+	background-color: #fff;
+}
+.img{
+	float: left;
+}
+.span{
+	float: right;
+}
+/*****************中间*******************/
+.center{
+	background-color: #fff;
+	padding: 20px;
+	line-height: 1.5em;
+	margin:20px 160px 20px 240px;
+}
+/***************右侧***************/
+.right{
+	width: 80px;
+	padding: 0 20px;
+	background-color: #fff;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.bottom{
+	margin-bottom: 20px;
+}
+.margin{
+	margin-top:20px;
+}
