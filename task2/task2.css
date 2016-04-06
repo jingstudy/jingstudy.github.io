@@ -1,0 +1,181 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color:#dcdcdc;
+	width: 1282px;
+	font-family:Geneva, Tahoma, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+/***header样式***/
+header{
+	width: 100%;
+	position: relative;
+	background-color: #000;
+}
+header h1{
+	background-image: url("logo.png");
+	width: 180px;
+	height: 60px;
+	margin-left: 2.5%;
+}
+nav{
+	position: absolute;
+	top: 0;
+	right: 2.5%;
+}
+nav li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+nav a{
+	line-height: 60px;
+	color: #fff;
+	font-size: 13px;
+}
+nav a:link,nav a:visited{
+	text-decoration: none;
+}
+nav a:visited{
+	color: #ccc;
+}
+
+/*************主体部分样式*****************/
+.main{
+	width: 100%;
+}
+.main article{
+	width: 95%;
+	margin:20px auto;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+article h2{
+	padding: 30px 0 0 20px;
+}
+article h3{
+	padding:10px 0 0 20px; 
+}
+article address{
+	color: #808080;
+	padding: 10px 0 0 20px;
+}
+article section{
+	padding: 10px 0 30px 20px;
+	line-height: 2em;
+}
+section p{
+	text-indent: 2em;
+}
+section img{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+section li{
+	list-style: none;
+	text-indent: 2em;
+}
+/****************图片所在文章*******************/
+figure{
+	border: 1px solid #ccc;
+	text-align: center;
+	width: 250px;
+	padding: 10px;
+	margin:20px 0 20px 4em;
+}
+figcaption{
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+/****************最后一篇文章**********************/
+ol{
+	padding: 10px;
+	text-indent: 2em;
+}
+ol li{
+	list-style-position: inside;
+	padding: 5px;
+}
+
+article label{
+	margin-left: 2em;
+}
+table{
+	width: 95%;
+	margin:0 2em 2em 2em;
+	text-align: left;
+	border-collapse: collapse;
+}
+article th,td{
+	border:1px solid #ccc;
+	padding: 5px;
+}
+article thead{
+	background-color: #000;
+	color: #fff;
+}
+article tfoot{
+	background-color: #ccc;
+}
+
+/*******aside样式********/
+aside{
+	background: #fff;
+	width: 90%;
+	height: 30%;
+	margin: 40px 0 0 2.5%;
+	padding: 10px 10px 10px 10px;
+}
+aside table{
+	width: 98%;
+	margin:10px auto;
+	font-weight: normal;
+}
+aside td{
+	border: none;
+	height: 20px;
+}
+.td1{
+	text-align: right;
+	width: 30%;
+}
+.td2{
+	text-align: left;
+	width: 70%;
+}
+.special{
+	color: #A9A9A9;
+}
+aside h3{
+	text-align: left;
+	padding: 5px 0 5px 10px;
+	margin-left: 1em;
+	border-left: 3px solid #ccc;
+}
+button{
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #00f;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+textarea{
+	width: 90%;
+	height: 100px;
+}
+
+/*****footer样式*****/
+footer{
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+	line-height: 70px;
+}
