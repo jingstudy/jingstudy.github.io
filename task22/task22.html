@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<title>遍历二叉树</title>
+	<link rel="stylesheet" type="text/css" href="task22.css">
+</head>
+<body>
+<div class="root">
+	<div class="left">
+		<div class="left_left">
+			<div class="ll_l"></div>
+			<div class="ll_r"></div>
+		</div>
+		<div class="left_right">
+			<div class="lr_l"></div>
+			<div class="lr_r"></div>
+		</div>
+	</div>
+	<div class="right">
+		<div class="right_left">
+			<div class="rl_l"></div>
+			<div class="rl_r"></div>
+		</div>
+		<div class="right_right">
+			<div class="rr_l"></div>
+			<div class="rr_r"></div>
+		</div>
+	</div>
+</div>
+<div class="wrapper">
+	<button id="pre_order_btn">前序遍历</button>
+	<button id="mid_order_btn">中序遍历</button>
+	<button id="post_order_btn">后序遍历</button>
+	<div class="interval">动画速度:
+		<select id="interval">
+			<option value="200">快</option>
+			<option value="500" selected>中</option>
+			<option value="1000">慢</option>
+		</select>
+	</div>
+</div>
+<script src="task22.js"></script>
+</body>
+</html>
