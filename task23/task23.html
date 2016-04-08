@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<title>多叉查找树</title>
+	<link rel="stylesheet" type="text/css" href="task23.css">
+</head>
+<body>
+<div class="root">super
+	<div class="first">car
+		<div class="f_f">Apple
+			<div class="f_f_f">Pear</div>
+			<div class="f_f_s">Pig</div>
+			<div class="f_f_t">Cat</div>
+			<div class="f_f_l">Space</div>
+		</div>
+		<div class="f_s">Phone</div>
+		<div class="f_l">
+			<div class="f_l_f">Book</div>
+			<div class="f_l_l">School</div>
+		</div>
+	</div>
+	<div class="second">Note
+		<div class="s_f">Human
+		<div class="s_f_f">Code</div>
+		<div class="s_f_s">Option</div>
+		<div class="s_f_l">Man</div>
+		</div>
+		<div class="s_l">Project
+			<div class="s_l_f">Being
+				<div class="s_l_f_l">Cape</div>
+			</div>
+			<div class="s_l_l">Glass</div>
+		</div>	
+	</div>
+	<div class="last">Rose</div>
+</div>
+<div class="wrapper">
+	<button id="pre_find_btn">前序遍历查找</button>
+	<button id="in_find_btn">中序遍历查找</button>
+	<button id="post_find_btn">后序遍历查找</button>
+	<div class="text">查找内容：<input type="text" id="text" value="School" /></div>
+	<div class="interval">闪烁速度：
+		<select id="interval">
+			<option value="200">快</option>
+			<option value="500" selected>中</option>
+			<option value="1000">慢</option>
+		</select>
+	</div>
+</div>
+<script src="task23.js"></script>
+</body>
+</html>

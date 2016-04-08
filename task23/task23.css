@@ -1,0 +1,97 @@
+.wrapper{
+	width: 1000px;
+	height: 50px;
+	margin:auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.text,.interval{
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.root{
+	width:1300px;
+	height: 200px;
+	margin:50px auto 20px auto; 
+	border:1px solid #333;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+/*************树的第二层****************/
+.first,.second{
+	width: 43%;
+}
+.last{
+	width: 8%;
+}
+.first,.second,.last{
+	height: 180px;
+	border:1px solid #333;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+/************树第三层(左子树)***************/
+.f_f{
+	width: 55%;
+}
+.f_s{
+	width: 10%;
+}
+.f_l{
+	width: 20%;
+}
+.f_f,.f_s,.f_l{
+	height:150px; 
+	border:1px solid #333;
+	display: flex;
+	justify-content: space-around;
+	align-items: center; 
+}
+/*************左子树第四层*****************/
+.f_f_f,.f_f_s,.f_f_t,.f_f_l{
+	width: 17%;
+	height: 120px;
+	border:1px solid #333;
+}
+
+.f_l_f,.f_l_l{
+	width: 40%;
+	height: 120px;
+	border:1px solid #333;
+}
+/****************右子树第三层*****************/
+.s_f,.s_l{
+	width: 45%;
+	height: 150px;
+	border:1px solid #333;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/**************右子树第四层****************/
+.s_f_f,.s_f_s,.s_f_l{
+	width: 20%;
+	height: 120px;
+	border:1px solid #333;
+}
+.s_l_f{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.s_l_f,.s_l_l{
+	width: 30%;
+	height: 120px;
+	border:1px solid #333;
+}
+/*********右子树第五层**********/
+.s_l_f_l{
+	width: 50%;
+	height: 70px;
+	border:1px solid #333;
+}
