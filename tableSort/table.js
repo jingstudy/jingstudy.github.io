@@ -27,7 +27,7 @@
 		(function(i){
             tr[i].onclick=function(){
             	removeColor();
-            	tr[i].style.backgroundColor="#87CEFA";
+            	this.style.backgroundColor="#87CEFA";
             }
 		})(i)
 	}
