@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<title>多叉查找树</title>
+	<link rel="stylesheet" type="text/css" href="task23.css">
+</head>
+<body>
+<div class="tree_wrapper">
+	<div class="level-1">super
+		<div class="level-2">car
+			<div class="level-3">Apple
+				<div class="level-4">Pear</div>
+				<div class="level-4">Pig</div>
+				<div class="level-4">Cat</div>
+				<div class="level-4">Space</div>
+			</div>
+			<div class="level-3">Phone</div>
+			<div class="level-3">
+				<div class="level-4">Book</div>
+				<div class="level-4">School</div>
+			</div>
+		</div>
+		<div class="level-2">Note
+			<div class="level-3">Human
+				<div class="level-4">Code</div>
+				<div class="level-4">Option</div>
+				<div class="level-4">Man</div>
+			</div>
+			<div class="level-3">Project
+				<div class="level-4">Being
+					<div class="level-5">Cape</div>
+				</div>
+				<div class="level-4">Glass</div>
+			</div>	
+		</div>
+		<div class="level-2">Rose</div>
+	</div>
+</div>
+<div class="wrapper">
+	<div class="vertical">
+		闪烁速度：<select id="interval">
+				<option value="200">快</option>
+				<option value="500" selected>中</option>
+				<option value="1000">慢</option>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;查找内容：<input type="text" id="text" value="School" />
+	</div>
+	<button id="pre_find_btn">前序遍历查找</button>
+	<button id="in_find_btn">中序遍历查找</button>
+	<button id="post_find_btn">后序遍历查找</button>
+</div>
+<script src="task23.js"></script>
+</body>
+</html>
