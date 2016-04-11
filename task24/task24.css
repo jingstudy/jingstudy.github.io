@@ -1,0 +1,57 @@
+body{
+	font-family: "arial";
+}
+.wrapper{
+	width: 1000px;
+	height: 50px;
+	margin:20px auto 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.vertical{
+	line-height: 50px;
+}
+#add_node,#del_node{
+	display: none;
+}
+/*动态增加节点的样式*/
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border:1px solid #333;
+	background-color: white;
+	padding:0 5px;
+	margin:0 5px;
+}
+div[class^="level-"]{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border:1px solid #333;
+	background-color: white;
+	padding:0 5px;
+	margin:0 5px;
+}
+.tree_wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: none;
+}
+.level-1{
+	height: 200px;
+}
+.level-2{
+	height: 170px;
+}
+.level-3{
+	height: 140px;
+}
+.level-4{
+	height: 110px;
+}
+.level-5{
+	height: 80px;
+}
