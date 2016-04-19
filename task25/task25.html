@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<title>任务25:树形目录</title>
+	<link rel="stylesheet" type="text/css" href="task25.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="vertical">
+		查找文件：<input type="text" id="text" value="Being" />
+	</div>
+	<button id="pre_find_btn">前序查找</button>
+	<button id="add_node">增加子节点</button>
+	<button id="del_node">删除该节点</button>
+</div>
+<div class="tree_wrapper">
+	<div class="flex"><div class="menudiv"><span class="span">+</span>目录</div>
+		<div class="flex"><div class="menudiv"><span class="span">+</span>car</div>
+			<div class="flex"><div class="menudiv"><span class="span">+</span>Apple</div>
+				<div class="flex"><div class="menudiv"><span class="span">+</span>Pear</div></div>
+			</div>
+			<div class="flex"><div class="menudiv"><span class="span">+</span>Phone</div></div>
+			<div class="flex"><div class="menudiv"><span class="span">+</span>sss</div>
+				<div class="flex"><div class="menudiv"><span class="span">+</span>Book</div></div>
+				<div class="flex"><div class="menudiv"><span class="span">+</span>School</div></div>
+			</div>
+		</div>
+		<div class="flex"><div class="menudiv"><span class="span">+</span>Note</div>
+			<div class="flex"><div class="menudiv"><span class="span">+</span>Human</div>
+			</div>
+			<div class="flex"><div class="menudiv"><span class="span">+</span>Project</div>
+				<div class="flex"><div class="menudiv"><span class="span">+</span>Being</div>
+					<div class="flex"><div class="menudiv"><span class="span">+</span>Cape</div></div>
+				</div>
+				<div class="flex"><div class="menudiv"><span class="span">+</span>Glass</div></div>
+			</div>	
+		</div>
+		<div class="flex"><div class="menudiv"><span class="span">+</span>Rose</div></div>
+	</div>
+</div>
+<script src="task25.js"></script>
+</body>
+</html>
